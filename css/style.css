@@ -1,0 +1,52 @@
+body {
+    font-family: sans-serif;
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 1.8;
+    box-sizing: border-box;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.ip1, .ip2 {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 2em auto;
+}
+
+.ip1 {
+    color: teal;
+}
+
+.ip2 {
+    color: crimson;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    font-size: 1rem;
+}
+input::placeholder{
+    color: #ccc;
+}
+
+#result {
+    padding: 12px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 6px;
+}
+
+button {
+    padding: 10px 15px;
+    /* margin: 1em auto; */
+    font-size: 1rem;
+    cursor: pointer;
+}

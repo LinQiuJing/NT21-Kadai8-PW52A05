@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>NT21-08-接続可能確認</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <h1>接続可能確認</h1>
+
+    <div class="ip1">
+        <label class="ip1">IPアドレス 1:</label>
+        <input id="ip1" type="text" placeholder="例: 192.168.130.1">
+
+        <label class="ip1">IP1 のサブネットマスク:</label>
+        <select id="cidrSelect1"></select>
+    </div>
+
+    <div class="ip2">
+        <label class="ip2">IPアドレス 2:</label>
+        <input id="ip2" type="text" placeholder="例: 192.168.128.1">
+
+        <label class="ip2">IP2 のサブネットマスク:</label>
+        <select id="cidrSelect2"></select>
+    </div>
+
+    <button id="checkBtn">判定する</button>
+
+    <pre id="result"></pre>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
